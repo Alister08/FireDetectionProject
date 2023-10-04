@@ -1,0 +1,3 @@
+!pip install ultralytics
+!from ultralytics import YOLO
+!yolo task = detect mode= train model =yolov8n.pt data=/content/drive/MyDrive/dataMyTest/data.yaml epochs = 250 imgsz=640
